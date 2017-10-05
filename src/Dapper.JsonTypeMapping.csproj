@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFrameworks>netstandard1.3;net40;net45;net451</TargetFrameworks>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageId>Dapper.JsonTypeMapping</PackageId>
+    <Description>Dapper ORM extension that maps string[] and object properties to JSON columns in Database.</Description>
+    <Version>0.8.1</Version>
+    <SignAssembly>false</SignAssembly>
+    <DelaySign>false</DelaySign>
+    <Authors>Jovan Popovic</Authors>
+    <Company />
+    <Copyright>Jovan Popovic</Copyright>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="Dapper" Version="1.50.2" />
+    <PackageReference Include="Newtonsoft.Json" Version="10.0.3" />
+  </ItemGroup>
+</Project>
