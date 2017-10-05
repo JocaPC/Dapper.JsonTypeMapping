@@ -4,12 +4,15 @@
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <PackageId>Dapper.JsonTypeMapping</PackageId>
     <Description>Dapper ORM extension that maps string[] and object properties to JSON columns in Database.</Description>
-    <Version>0.8.1</Version>
+    <Version>0.8.2</Version>
     <SignAssembly>false</SignAssembly>
     <DelaySign>false</DelaySign>
     <Authors>Jovan Popovic</Authors>
     <Company />
     <Copyright>Jovan Popovic</Copyright>
+    <PackageProjectUrl>https://github.com/JocaPC/Dapper.JsonTypeMapping</PackageProjectUrl>
+    <PackageTags>C# ORM Dapper JSON</PackageTags>
+    <RepositoryUrl>https://github.com/JocaPC/Dapper.JsonTypeMapping</RepositoryUrl>
   </PropertyGroup>
   <ItemGroup>
     <PackageReference Include="Dapper" Version="1.50.2" />
